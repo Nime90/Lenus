@@ -25,7 +25,10 @@ shown as "9b2d5b4678781e53038e91ea5324530a03f27dc1d0e5f6c9bc9d493a23be9de0"
 | branch | Which branch the customer mainly is associated with |
 
 Development:
-To complete the task I will first familiarize with the data. Trying to deeply understand it. once it is done I will try to clean and get data ready to the analysis (dropping empty cells and adding necessary dummy columns and summarizations). I will finally perform logistic regressions using a machine learning approach and a "classical" statistical approach.
+To complete the task I will first familiarize with the data. Trying to deeply understand it. once it is done I will try to clean and get data ready to the analysis (dropping empty cells and adding necessary dummy columns and summarizations).
+Please find descriptive statistics performed here: https://public.tableau.com/app/profile/nicola.menale8721/viz/Lenus_Descriptive/Descriptivestatistics
+
+I will then perform logistic regressions using a machine learning approach and a "classical" statistical approach.
 In the end I will analyze the data and create a presetnation in ppt and tableau to convey the results.
 
 In this repos you will find the notebook containing all the steps i did (including observations and comments) and the python file that can be used for running over and over the logistic regressions changing the independent variables.
