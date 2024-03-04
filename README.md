@@ -20,8 +20,7 @@ Fields
 | related_customers | Numeric - number of people who are related to the customer
 | family_size | Numeric - size of family members
 | initial_fee_level | Initial services fee level the customer is enrolled to
-| credit_account_id | Identifier (hash) for the customer credit account. If customer has none, they are
-shown as "9b2d5b4678781e53038e91ea5324530a03f27dc1d0e5f6c9bc9d493a23be9de0"
+| credit_account_id | Identifier (hash) for the customer credit account. If customer has none, they are shown as "9b2d5b4678781e53038e91ea5324530a03f27dc1d0e5f6c9bc9d493a23be9de0"
 | branch | Which branch the customer mainly is associated with |
 
 Development:
@@ -29,7 +28,7 @@ To complete the task I will first familiarize with the data. Trying to deeply un
 Please find descriptive statistics performed here: https://public.tableau.com/app/profile/nicola.menale8721/viz/Lenus_Descriptive/Descriptivestatistics
 
 I will then perform logistic regressions using a machine learning approach and a "classical" statistical approach.
-In the end I will analyze the data and create a presetnation in ppt and tableau to convey the results.
+In the end I will analyze the data and create a presetnation in ppt (saved in this repo as pdf) and tableau to convey the results (see the link above).
 
 In this repos you will find the notebook containing all the steps i did (including observations and comments) and the python file that can be used for running over and over the logistic regressions changing the independent variables.
-Data and PDF file with the description have been left out on purpose (for security reason: I have not been instructed about the privacy of the data received and this is a public repository)
+Data has been left out on purpose (for security reason: I have not been instructed about the privacy of the data received and this is a public repository)
