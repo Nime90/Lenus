@@ -94,7 +94,13 @@ for c in cat_var:
     print('')
     print('Results for the variable "',c,'"')
     print('')
-    try: print(Chisquare(data_clean,column='converted',column2=c,P_value=0.05))
+    if c=="related_customers":
+        data_clean_t=data_clean[data_clean['related_customers']<5].reset_index(drop=True)
+    elif c== 'family_size':
+        data_clean_t=data_clean[data_clean['family_size']<3].reset_index(drop=True)
+    else: 
+        data_clean_t=data_clean
+    try:print(Chisquare(data_clean_t,column='converted',column2=c,P_value=0.05))
     except: print('it is not possible to compute the chi-sq for this variable')
 
 ordinal_var=['age_r','initial_fee_level']
